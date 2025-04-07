@@ -1,25 +1,23 @@
-# 📊 WhatsApp Chat Analysis
+# Chat Analysis 
 
-An interactive tool built using Python and Streamlit to analyze WhatsApp chat exports. Gain insights into group or individual conversations through data visualizations, sentiment analysis, emoji usage, word clouds, and more.
+## Overview
+This is a web app built with Streamlit to analyze chat data (e.g., WhatsApp conversations). It processes text, generates insights, and visualizes patterns using machine learning and data visualization tools.
 
----
+## Features
+- Uploads and preprocesses chat data (via `preprocessor` and `helper` modules)
+- Visualizes trends with Matplotlib and Seaborn (e.g., message counts, word clouds)
+- Uses NumPy for data handling
 
-## 🔍 Features
+## Requirements
+- Python 3.x
+- streamlit
+- matplotlib
+- seaborn
+- numpy
+## How to Run
+1. Clone the repo: git clone https://github.com/ayuclan/Chat-Analysis.git
+2. Install dependencies:pip install streamlit matplotlib seaborn numpy
+3. Run the app:streamlit run chat_analysis.py
 
-- 📅 Chat timeline analysis (daily, monthly)
-- 🗣️ Most active participants
-- 🔤 Word frequency and word cloud generation
-- 😀 Emoji usage breakdown
-- 🔥 Peak activity hours
-- 💬 Sentiment analysis using NLP
-- 📁 Simple file upload interface
-
-
-
-## 🛠️ Tech Stack
-
-- **Frontend & Dashboard**: Streamlit  
-- **Data Analysis**: Pandas, NumPy  
-- **Visualization**: Matplotlib, Seaborn, WordCloud  
-- **NLP**: TextBlob or VaderSentiment  
-- **Others**: Emoji, Regex, datetime
+## Author
+Ayushi satodiya — GitHub: [ayuclan](https://github.com/ayuclan)
